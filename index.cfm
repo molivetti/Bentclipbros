@@ -27,15 +27,6 @@
 	</head>
 	<body>
 
-	<cfset myQueriesObj = 		createobject('component', 'Phase5Queries')>
-	<cfset myBestCustomers = 	myQueriesObj.getBestCustomers()>
-	<cfset mySpecialSales = 	myQueriesObj.getSpecialSales()>
-	<cfset myFavoriteArtist = 	myQueriesObj.getFavoriteArtist()>
-	<cfset myOrderHistory = 	myQueriesObj.getOrderHistory('Bob', 500)>
-	<cfscript>
-		Writedump( var = #myFavoriteArtist# )
-	</cfscript>
-
 	<div class="div-container">
 
 		<h1>BentClipBros, LLC</h1>
