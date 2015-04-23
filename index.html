@@ -334,6 +334,7 @@
 					type: "POST",
 					url: "Phase5Queries.cfc?method=getBestCustomers",
 					error: function(msg){
+						msg = msg + "1";
 			            alert(msg.statusText);
 			            return msg;
 			        },
